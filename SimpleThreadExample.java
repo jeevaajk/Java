@@ -45,5 +45,6 @@ public class SimpleThreadExample {
         // Start threads
         new DivisibleBy5(arr).start();
         new Average(arr).start();
+        sc.close();
     }
 }
